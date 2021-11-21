@@ -47,18 +47,20 @@ nav{
 #mesto{
     text-align: center;
     width: 15vw;
-    position: absolute;
-    top: 20%;
-    left: 43%;
+
     font-size: 35px;
 }
 #vreme{
     text-align: center;
     width: 15vw;
     position: absolute;
-    top: 26%;
-    left: 43%;
     font-size: 50px;
+}
+#info-holder{
+    height: 12vh;
+    position: absolute;
+    top: 21%;
+    left: 43%;
 }
 #copyright{
     position: absolute;
