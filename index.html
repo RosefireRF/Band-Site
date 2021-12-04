@@ -8,15 +8,14 @@
     <title>BAND NAME</title>
 </head>
 <body>
-    <nav>
-        <a href="index.html"><div id="logo" class="left">HAWKSVALE</div></a>
-        <div id="menu" class="right">
-            <a href="pages/get-tickets.html"><div id="rezervacije" class="left">Rezervacije</div></a>
-            <a href="pages/previous-concerts.html"><div id="prosli-koncerti" class="right">Prošli koncerti</div></a>
-            <div class="clear"></div>
-        </div>
-        <div class="clear"></div>
-    </nav>
+    <header>
+        <a href="index.html"><div id="logo"><h1>HAWKSVALE</h1></div></a>
+        <nav id="menu">
+            <a href="#sledeci-koncert"><div id="rezervacije">Rezervacije</div></a>
+            <a href="#prošli-koncerti"><div id="prosli-koncerti" >Prošli koncerti</div></a>
+            <a href="pages/previous-concerts.html"><div id="prosli-koncerti" >Galerija</div></a>
+        </nav>
+    </header>
     <main>
         <div id="promo">
             <div id="info-holder">
@@ -24,10 +23,28 @@
                 <p id="vreme">15.12.2021</p>
             </div>
         </div>
+        <div class="stranica" id="sledeci-koncert">
+            <div id="koncert-wrapper">
+            <div id="arena">
+                <p class="large-text">Sledeći koncert će biti u štark areni!</p>
+                <img src="images/Štark_Arena.jpg" id="main-stark" alt="Štark arena">
+            </div>
+            <a id="rezerviši"  class="button" href="pages/rezervacije"><div>Rezerviši</div></a>
+            </div>
+        </div>
+        <div class="stranica">
+            <div id="prošli-koncerti">
+                <p class="large-text">Pogledajte slike sa naših prošlih koncerata!</p>
+                <img src="images/prošli-koncert.jpg" id="prosli-koncert" alt="prošli koncert">
+                <div class="button" id="main-galerija">Pogledaj još</div>
+            </div>
+        </div>
     </main>
+    <!--
     <footer id="copyright">
         <a class="right" style="margin-right: 2%;" href="pages/about-author.html">O Autoru</a>
         <p class="right" style="margin-right: 2%;">Ilija Krstić &copy;2021</p>
     </footer>
+    -->
 </body>
 </html>
