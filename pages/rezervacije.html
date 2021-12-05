@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/constant.css">
+    <link rel="stylesheet" href="../styles/rezervisi.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html"><div id="logo"><h1 class="link">HAWKSVALE</h1></div></a>
+        <nav>
+            <ul id="menu">
+            <li><a href="#sledeci-koncert" class="active-link">Rezervacije</a></li>
+            <li><a href="#temp" class="link">Prošli koncerti</a></li>
+            <li><a href="#band-wrapper" class="link">Upoznajte bend</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="stranica">
+            <div id="rezervacije-wrapper">
+                <!--Levo-->
+                <figure id="sledeci-koncert">
+                    <figcaption><h1 class="large-text">Štark Arena - 25.12.2021.</h1></figcaption>
+                    <img id="slika-mesta" src="../images/Štark_Arena.jpg" alt="Štark Arena"/>
+                </figure>
+                <!--Desno-->
+                <div id="meni-rezervacije">
+                    <p class="medium-text" id="cena">1000 RSD Karta</p>
+                    <div id="forma-i-rss">
+                        <form id="forma" action="">
+                        <label class="medium-text" for="brKarata">Broj karata</label>
+                        <input type="number" min="1" max="5" name="brojKarata" id="brKarata" placeholder="Broj karata">
+                        <!--RSS Prostor-->
+                        <input type="submit" value="Rezerviši">
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </main>
+</body>
+</html>

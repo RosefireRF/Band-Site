@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    font-family: 'Ink Free';
+}
+header{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+a{
+    text-decoration: none;
+}
+nav ul{
+    list-style-type: none;
+}
+#logo{
+    height: 100%;
+    font-size: 40px;
+    width: 30vw;
+    text-align: center;
+    line-height: 10vh;
+}
+#menu{
+    height: 100%;
+    font-size: 40px;
+    line-height: 10vh;
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5vw;
+}
+@keyframes change-color{
+    from {color: white;}
+    to {color: red;}
+}
+@keyframes gray-to-white{
+    from {color: red;}
+    to {color: white;}
+}
+.link:hover{
+    animation-name: change-color;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+.active-link{
+    font-weight: 900;
+    color: red;
+}
+.active-link:hover{
+    animation-name: gray-to-white;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+.large-text{
+    font-size: 50px;
+}
+.medium-text{
+    font-size: 40px;
+}
+.stranica{
+    background-color: #444444;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+}

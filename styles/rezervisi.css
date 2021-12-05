@@ -1,0 +1,61 @@
+.stranica{
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+}
+#rezervacije-wrapper{
+    margin: 0 auto;
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+#sledeci-koncert{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80%;
+    width: 60%;
+}
+#slika-mesta{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+#meni-rezervacije{
+    height: 50%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#forma-i-rss{
+    height: 50%;
+}
+#cena{
+    background-color: red;
+    border-radius: 10px;
+}
+#brKarata{
+    color: black;
+    width: 80%;
+    height: 20%;
+    border: 0px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+input[type=submit]{
+    border: 0px;
+    width: 100%;
+    height: 60%;
+    background-color: red;
+    font-size: 40px;
+    border-radius: 20px;
+}
+#forma{
+    width: 100%;
+    height: 100%;
+}
