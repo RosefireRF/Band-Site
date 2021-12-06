@@ -54,7 +54,7 @@ nav ul{
 }
 .link:hover{
     animation-name: change-color;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
 }
 .active-link{
@@ -63,7 +63,7 @@ nav ul{
 }
 .active-link:hover{
     animation-name: gray-to-white;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
 }
 .large-text{
