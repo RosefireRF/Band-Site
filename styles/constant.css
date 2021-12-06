@@ -3,6 +3,15 @@
     padding: 0%;
     color: white;
     font-family: 'Ink Free';
+    animation-name: exist;
+    animation-duration: 1.5s;
+}
+@keyframes exist{
+    from {opacity: 20%;}
+    to {opacity: 100%;}
+}
+html{
+    scroll-behavior: smooth;
 }
 header{
     position: fixed;
