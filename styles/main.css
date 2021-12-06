@@ -10,13 +10,13 @@
 #mesto{
     text-align: center;
     width: 15vw;
-    font-size: 35px;
+    font-size: 20px;
 }
 #vreme{
     text-align: center;
     width: 15vw;
     position: absolute;
-    font-size: 50px;
+    font-size: 25px;
 }
 #info-holder{
     height: 12vh;
@@ -39,33 +39,46 @@
     flex-direction: column;
     justify-content: space-between;
 }
+#next-concert-place{
+    margin-top: auto;
+}
 .button{
     border-radius: 20px;
     background-color: #CE2E28;
     border: 1px solid black;
     margin: 0 auto;
     text-align: center;
+    font-size: 25px;
 }
 #main-stark{
     width: 100%;
     height: auto;
     border-radius: 20px;
 }
-#koncert-wrapper{
+#concert-wrapper{
     height: 70vh;
     position: relative;
     top: 15%;
     width: 90%;
     display: flex;
-    margin-left: 9vw;
-
+    justify-content: space-around;
+    margin-left: 4vw;
 }
-#rezerviši{
-    width: 20vw;
-    height: 15vh;
+#arena-description{
     margin-top: auto;
-    line-height: 15vh;
-    font-size: 40px;
+    width: 20vw;
+    height: 70%;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#reserve{
+    width: 50%;
+    height: 10vh;
+    margin-bottom: 1vh;
+    line-height: 10vh;
+    font-size: 30px;
 }
 #prošli-koncerti{
     margin: 0 auto;
@@ -120,4 +133,12 @@
 figure img{
     width: 100%;
     border-radius: 50%;
+}
+@media screen and(min-width: 1910px) {
+ #vreme{
+     font-size: 35px;
+ }   
+ #mesto{
+     font-size: 50px;
+ }
 }

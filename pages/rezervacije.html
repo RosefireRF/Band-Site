@@ -30,11 +30,12 @@
                 <div id="meni-rezervacije">
                     <p class="medium-text" id="cena">1000 RSD Karta</p>
                     <div id="forma-i-rss">
-                        <form id="forma" action="">
-                        <label class="medium-text" for="brKarata">Broj karata</label>
+                        <form id="forma" method="post" action="">
                         <div id="rss-holder">
+                        <label for="email">Email</label>
+                        <input placeholder="johndoe@gmail.com" type="email" name="mail" id="email"/>
+                        <label class="medium-text" for="brKarata">Broj karata</label>
                         <input type="number" min="1" max="5" name="brojKarata" id="brKarata" placeholder="Broj karata">
-                        <div id="rss">SUB</div>
                         </div>
                         <!--RSS Prostor-->
                         <input type="submit" value="Rezerviši">

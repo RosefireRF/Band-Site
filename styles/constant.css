@@ -3,10 +3,10 @@
     padding: 0%;
     color: white;
     font-family: 'Ink Free';
-    animation-name: exist;
+    animation-name: appear;
     animation-duration: 1.5s;
 }
-@keyframes exist{
+@keyframes appear{
     from {opacity: 20%;}
     to {opacity: 100%;}
 }
@@ -17,10 +17,10 @@ header{
     position: fixed;
     top: 0;
     width: 100vw;
-    height: 10vh;
     background-color: black;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     z-index: 2;
 }
 a{
@@ -31,14 +31,13 @@ nav ul{
 }
 #logo{
     height: 100%;
-    font-size: 40px;
+    font-size: 30px;
     width: 30vw;
     text-align: center;
-    line-height: 10vh;
 }
 #menu{
     height: 100%;
-    font-size: 40px;
+    font-size: 25px;
     line-height: 10vh;
     width: 40vw;
     display: flex;
@@ -68,10 +67,10 @@ nav ul{
     animation-fill-mode: forwards;
 }
 .large-text{
-    font-size: 50px;
+    font-size: 30px;
 }
 .medium-text{
-    font-size: 40px;
+    font-size: 20px;
 }
 .stranica{
     background-color: #444444;
