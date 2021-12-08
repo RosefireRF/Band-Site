@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Prošli koncerti</title>
-    <link rel="stylesheet" href="../styles/constant.css">
-    <link rel="stylesheet" href="../styles/previous-concerts.css">
+    <link rel="icon" type="image/x-icon" href="../images/eagle.ico"/>
+    <link rel="stylesheet" href="../styles/constant.css"/>
+    <link rel="stylesheet" href="../styles/previous-concerts.css"/>
 </head>
 <body>
     <header>
@@ -20,11 +21,38 @@
         </nav>
     </header>
     <main>
-        <div id="latest-concert" class="stranica">
+        <article id="Atina" class="stranica">
+            <div class="concert-wrapper">
             <figure class="previous-concert">
-                dsadas
+                <h1 class="large-text">Atina 10.10.2020</h1>
+                <img class="concert" src="../images/prošli-koncert.jpg" alt="Athens 10.10.2020">
             </figure>
-        </div>
+            <div class="buttons">
+                <a href="#Niš"><input class="button" type="button" value="v"></a>
+            </div>
+        </article>
+        <article id="Niš" class="stranica">
+            <div class="concert-wrapper">
+            <figure  class="previous-concert">
+                <h1 class="large-text">Niš 08.10.2020</h1>
+                <img class="concert" src="../images/Niš.jpg" alt="Niš 08.10.2020">
+            </figure>
+            <div class="buttons">
+                <a href="#Atina"><button class="button">^</button></a>
+                <a href="#Podgorica"><button class="button">v</button></a>
+            </div>
+            </div>
+        </article>
+        <article id="Podgorica" class="stranica">
+            <div class="concert-wrapper">
+            <figure class="previous-concert">
+                <h1 class="large-text">Podgorica 06.10.2020</h1>
+                <img class="concert" src="../images/Podgorica.jpg" alt="Athens 06.10.2020">
+            </figure>
+            <div class="buttons">
+                <a href="#Niš"><button class="button">^</button></a>
+            </div>
+        </article>
     </main>
 </body>
 </html>

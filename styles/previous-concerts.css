@@ -1,6 +1,46 @@
 .stranica:first-of-type{
     margin-top: 10vh;
 }
+.stranica{
+
+}
+.concert-wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .previous-concert{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    top: 10%;
     width: 80%;
+    height: 80%;
+}
+.concert{
+    border-radius: 20px;
+    width: 70%;
+    height: 60vh;
+}
+.buttons{
+    width: 10vw;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+.buttons:first-of-type{
+    justify-content: end;
+}
+.buttons:last-of-type{
+    justify-content: start;
+}
+.button{
+    background-color: black;
+    width: 10vw;
+    height: 10vw;
+    font-size: 40px;
+    border-radius: 50%;
 }
