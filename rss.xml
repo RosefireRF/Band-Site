@@ -11,14 +11,14 @@
     <description>Otvorena prodaja karata za sledeci koncert!</description>
   </item>
   <item>
-    <title>Galerija prošlih koncerata!</title>
-    <link>https://rosefirerf.github.io/Band-Site/pages/prosli-koncerti.html</link>
-    <description>Otvorena galerija slika sa prošlih koncerata!</description>
-  </item>
-  <item>
     <title>Novi član!</title>
     <link>https://rosefirerf.github.io/Band-Site/pages/ElenaKnezevic.html</link>
     <description>Elena Knezevic se pridružila bendu!</description>
+  </item>
+  <item>
+    <title>Galerija prošlih koncerata!</title>
+    <link>https://rosefirerf.github.io/Band-Site/pages/prosli-koncerti.html</link>
+    <description>Otvorena galerija slika sa prošlih koncerata!</description>
   </item>
   <item>
     <title>Novi član!</title>
