@@ -18,9 +18,9 @@
         <a href="index.html"><div id="logo"><h1 class="link">HAWKSVALE</h1></div></a>
         <nav>
             <ul id="menu">
-                <li><a href="#next-concert" class="link">Rezervacije</a></li>
-                <li><a href="#temp" class="link">Prošli koncerti</a></li>
-                <li><a href="#band-wrapper" class="link">Upoznajte bend</a></li>
+                <li><a target="_self" href="#next-concert" class="link">Rezervacije</a></li>
+                <li><a target="_self" href="#prev-concerts-anchor" class="link">Prošli koncerti</a></li>
+                <li><a target="_self" href="#band-wrapper" class="link">Upoznajte bend</a></li>
             </ul>
         </nav>
     </header>
@@ -41,15 +41,15 @@
             </figure>
             <div id="arena-description">
             <p>ŠTARK ARENA je najsavremenije višenamensko mesto za sport, kulturu, zabavu, izložbe, sajmove i druge manifestacije. Arena je objekat sa najmodernijom tehnologijom, univerzalne upotrebe, sofisticiranog marketinga, izuzetne udobnosti, sa sveobuhvatnom ponudom usluga za gledaoce i posetioce</p>
-            <a id="reserve" href="pages/rezervacije.html"><div class="button">Rezerviši</div></a>
+            <a id="reserve" target="_self" href="pages/rezervacije.html"><div class="button">Rezerviši</div></a>
             </div>
             </div>
         </section>
-        <section class="stranica" id="temp">
-            <div id="prošli-koncerti">
+        <section class="stranica" id="prev-concerts-anchor">
+            <div id="previous-concerts">
                 <p class="large-text">Pogledajte slike sa naših prošlih koncerata!</p>
                 <img src="images/prošli-koncert.jpg" id="prosli-koncert" alt="prošli koncert"/>
-                <a href="pages/prosli-koncerti.html"><div class="button" id="main-galerija">Pogledaj još</div></a>
+                <a target="_self" href="pages/prosli-koncerti.html"><div class="button" id="main-galerija">Pogledaj još</div></a>
             </div>
         </section>
         <section class="stranica">
@@ -85,10 +85,11 @@
                 <p>Ilija Krstić &copy;2021</p>
             </div>
             <ul id="contacts">
-                <li><a class="font-import" href="rss.xml"><i class="fas fa-rss-square"></i></a></li>
-                <li><a class="font-import" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
-                <li><a class="font-import" href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></li>  
-                <li><a class="font-import" href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                <li><a class="font-import" target="_blank" href="sitemap.xml"><i class="fas fa-sitemap"></i></a></li>
+                <li><a class="font-import" target="_blank" href="rss.xml"><i class="fas fa-rss-square"></i></a></li>
+                <li><a class="font-import" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+                <li><a class="font-import" target="_blank" href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></li>  
+                <li><a class="font-import" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
             </ul>
         </div>
     </footer>

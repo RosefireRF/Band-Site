@@ -163,6 +163,11 @@ footer{
     animation-duration: 0.5s;
     animation-fill-mode: forwards;
 }
+.fa-sitemap:hover{
+    animation-name: sitemap;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
 @keyframes rss{
     from {color: white;}
     to {color: orange;}
@@ -178,4 +183,8 @@ footer{
 @keyframes facebook{
     from {color:white;}
     to {color: #4267B2;}
+}
+@keyframes sitemap{
+    from {color: white;}
+    to {color: red;}
 }
