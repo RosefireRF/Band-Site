@@ -15,22 +15,13 @@
 #vreme{
     text-align: center;
     width: 15vw;
-    position: absolute;
     font-size: 25px;
 }
 #info-holder{
     height: 12vh;
     position: absolute;
-    top: 28%;
+    top: 21vh;
     left: 43%;
-}
-#copyright{
-    position: absolute;
-    bottom: 0;
-    height: 3vh;
-    width: 100vw;
-    background-color: black;
-    display: inline-block;
 }
 #arena {
     width: 45vw;

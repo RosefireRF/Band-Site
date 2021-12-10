@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Glavna stranica</title>
+  <link>https://rosefirerf.github.io/Band-Site/index.html</link>
+  <description>Sajt benda Hawksvale</description>
+  <item>
+    <title>Prodaja karata!</title>
+    <link>https://rosefirerf.github.io/Band-Site/pages/rezervacije.html</link>
+    <description>Otvorena prodaja karata za sledeci koncert!</description>
+  </item>
+  <item>
+    <title>Novi član!</title>
+    <link>https://rosefirerf.github.io/Band-Site/pages/ElenaKnezevic.html</link>
+    <description>Elena Knezevic se pridružila bendu!</description>
+  </item>
+  <item>
+    <title>Novi član!</title>
+    <link>https://rosefirerf.github.io/Band-Site/pages/CostasDelMar.html</link>
+    <description>Costas Del Mar se pridružila bendu!</description>
+  </item>
+</channel>
+
+</rss> 
