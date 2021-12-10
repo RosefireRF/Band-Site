@@ -1,0 +1,46 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   <url>
+      <loc>https://rosefirerf.github.io/Band-Site/</loc>
+      <lastmod>2021-10-12</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>1.0</priority>
+   </url>
+   <url>
+      <loc>https://rosefirerf.github.io/Band-Site/pages/rezervacije.html</loc>
+      <lastmod>2021-10-12</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.95</priority>
+   </url>
+   <url>
+      <loc>https://rosefirerf.github.io/Band-Site/pages/prosli-koncerti.html</loc>
+      <lastmod>2021-10-12</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>0.90</priority>
+   </url>
+   <url>
+      <loc>https://rosefirerf.github.io/Band-Site/pages/PhipsGeorgiev.html</loc>
+      <lastmod>2021-10-12</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.80</priority>
+   </url>
+   <url>
+      <loc>https://rosefirerf.github.io/Band-Site/pages/ElenaKnezevic.html</loc>
+      <lastmod>2021-10-12</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.75</priority>
+   </url>
+   <url>
+      <loc>https://rosefirerf.github.io/Band-Site/pages/CostasDelMar.html</loc>
+      <lastmod>2021-10-12</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.70</priority>
+   </url>
+   <url>
+      <loc>https://rosefirerf.github.io/Band-Site/pages/autor.html</loc>
+      <lastmod>2021-10-12</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.65</priority>
+   </url>
+</urlset> 
