@@ -2,18 +2,18 @@
 <rss version="2.0">
 
 <channel>
-  <title>Hawksvale RSS</title>
+  <title>Glavna stranica</title>
   <link>https://rosefirerf.github.io/Band-Site/index.html</link>
   <description>Sajt benda Hawksvale</description>
-  <item>
-    <title>Galerija prošlih koncerata!</title>
-    <link>https://rosefirerf.github.io/Band-Site/pages/prosli-koncerti.html</link>
-    <description>Otvorena galerija slika sa prošlih koncerata!</description>
-  </item>
   <item>
     <title>Prodaja karata!</title>
     <link>https://rosefirerf.github.io/Band-Site/pages/rezervacije.html</link>
     <description>Otvorena prodaja karata za sledeci koncert!</description>
+  </item>
+  <item>
+    <title>Galerija prošlih koncerata!</title>
+    <link>https://rosefirerf.github.io/Band-Site/pages/prosli-koncerti.html</link>
+    <description>Otvorena galerija slika sa prošlih koncerata!</description>
   </item>
   <item>
     <title>Novi član!</title>
