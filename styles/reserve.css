@@ -48,6 +48,9 @@
     font-size: 20px;
     border-radius: 10px;
 }
+#forma-i-rss input{
+    border-radius: 10px;
+}
 #rss-holder{
     display: flex;
     flex-direction: column;
